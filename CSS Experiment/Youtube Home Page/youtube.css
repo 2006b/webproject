@@ -1,0 +1,207 @@
+.previews {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 453px;
+  column-gap: 16px;
+  row-gap: 25px;
+}
+a {
+  text-decoration: none;
+}
+p {
+  font-family: Roboto, Arial, sans-serif;
+}
+.thumbnails {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.profile-pic {
+  width: 48px;
+  margin: 0;
+  vertical-align: top;
+}
+.CP {
+  border-radius: 50%;
+  width: 36px;
+}
+.video-info {
+  margin: 0;
+  width: 312px;
+}
+.description {
+  width: 360px;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 48px 312px;
+}
+.video-titles {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(15, 15, 15);
+  line-height: 22px;
+  margin-bottom: 6px;
+}
+.video-stats,
+.channel-names {
+  color: rgb(96, 96, 96);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: solid;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+body {
+  margin: 0;
+  padding-top: 60px;
+  padding-left: 100px;
+}
+.header {
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+.searchbox {
+  padding-left: 12px;
+  display: flex;
+  flex: 1;
+  font-size: 16px;
+  height: 30px;
+  border: 1px solid rgb(204, 204, 204);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  width: 0px;
+}
+.searchbox::placeholder {
+  font-family: Roboto, Arial, sans-serif;
+}
+.left-section {
+  width: 169px;
+  align-items: center;
+  display: flex;
+  margin: 0px 24px;
+}
+.middle-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  padding-right: 50px;
+  margin-right: 50px;
+}
+.right-section {
+  width: 225px;
+  display: flex;
+  align-items: center;
+}
+.hmicon {
+  height: 24px;
+  margin-right: 24px;
+  cursor: pointer;
+}
+.ylicon {
+  height: 20px;
+  cursor: pointer;
+  margin-top: 4px;
+}
+.shicon {
+  height: 25px;
+  margin-left: 5px;
+}
+.shbt {
+  display: flex;
+  align-items: center;
+  width: 50px;
+  margin-left: -1;
+  height: 33.33px;
+  border: 1px solid rgb(204, 204, 204);
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.vsicon {
+  height: 25px;
+}
+.vsbt {
+  display: flex;
+  align-items: center;
+  height: 33.33px;
+  border: 1px solid rgb(204, 204, 204);
+  border-style: none;
+  background-color: white;
+  cursor: pointer;
+}
+.cticon {
+  height: 25px;
+}
+.ctbt {
+  display: flex;
+  align-items: center;
+  height: 33.33px;
+  border: 1px solid rgb(204, 204, 204);
+  border-style: none;
+  background-color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.nticon {
+  width: 25px;
+}
+.ntbt {
+  display: flex;
+  align-items: center;
+  height: 33.33px;
+  border: 1px solid rgb(204, 204, 204);
+  border-style: none;
+  background-color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.mpicon {
+  width: 30px;
+  border-radius: 15px;
+}
+.mpbt {
+  display: flex;
+  align-items: center;
+  height: 33.33px;
+  border: 1px solid rgb(204, 204, 204);
+  border-style: none;
+  background-color: white;
+  cursor: pointer;
+}
+.sidebar {
+  width: 70px;
+  position: fixed;
+  left: 0px;
+  top: 60px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.sidebar img {
+  width: 25px;
+}
+.shorts {
+  object-fit: contain;
+  height: 20px;
+}
+.sidebar div {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 10px;
+}
+.subicon {
+  margin-left: 16px;
+}

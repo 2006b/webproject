@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      form {
+        width: 500px;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Registration Page:</legend>
+        <label for="name">Employee Name:</label>
+        <input type="text" name="name" id="name" />
+        <br /><br />
+        <label for="job">Job</label>
+        <select name="job" id="jon" size="4">
+          <option value="job">Salesman</option>
+          <option value="job">Manager</option>
+          <option value="job">Clerk</option>
+          <option value="job">Analyst</option>
+        </select>
+        <br /><br />
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+        <br /><br />
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" />
+        <br /><br />
+        <label for="password">re-Password:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Confirm Your Password"
+        />
+        <br /><br />
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="Male" />Male
+        <input type="radio" name="gender" id="Female" />Female <br /><br />
+        <label for="bd">Birthday:</label>
+        <input type="date" name="bd" id="bd" />
+        <br /><br />
+        <label for="salary">Salary:</label>
+        <input type="number" name="salary" id="salary" />
+        <br /><br />
+        <label for="commission">Commission:</label>
+        <input type="number" name="commission" id="commission" />
+        <br /><br />
+        <label for="total.salary">Total.Salary:</label>
+        <input type="text" name="total.salary" id="total.salary" value="NaN" />
+        <br /><br />
+        <input type="submit" />&nbsp;<input type="reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>

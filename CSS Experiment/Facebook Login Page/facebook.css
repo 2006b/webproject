@@ -1,0 +1,126 @@
+.fblg {
+  width: 240px;
+  height: 84.49px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: rgb(240, 242, 245);
+}
+.warning {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: auto;
+  width: 570.667px;
+  height: 36px;
+  border: 1px solid rgb(53, 120, 229);
+  vertical-align: middle;
+  margin-bottom: 10px;
+  background-color: white;
+}
+.wnt {
+  margin-left: 10px;
+  font-size: 14px;
+}
+.lgn {
+  width: fit-content;
+  margin: auto;
+  background-color: white;
+}
+.loginfo {
+  border: 1px solid lightgray;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+}
+h1 {
+  font-size: 18px;
+  font-weight: normal;
+}
+.wnt2 {
+  margin: auto;
+  text-align: center;
+  width: 343px;
+  height: 16.073px;
+  border: 1px solid rgb(226, 200, 34);
+  background-color: rgb(255, 249, 215);
+  font-size: 12px;
+  padding: 10px;
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
+.usn {
+  margin: auto;
+  width: 330px;
+  height: 22px;
+  padding: 14px 16px;
+  border: 1px solid rgb(221, 223, 226);
+  box-shadow: inset 1px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-size: 17px;
+  margin-bottom: 12px;
+  color: rgb(29, 33, 41);
+}
+.pwd {
+  margin: auto;
+  width: 330px;
+  height: 22px;
+  padding: 14px 16px;
+  border: 1px solid rgb(221, 223, 226);
+  box-shadow: inset 1px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-size: 17px;
+  margin-bottom: 12px;
+  color: rgb(29, 33, 41);
+}
+.lgnbt {
+  width: 360px;
+  height: 48px;
+  padding: 0px 16px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(24, 119, 242);
+  border-radius: 6px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+.lgnbt:hover {
+  background-color: rgb(29, 116, 231);
+}
+.fal {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.faldiv {
+  margin-bottom: 10px;
+}
+.fal:hover {
+  text-decoration: underline;
+}
+.or {
+  padding: 0px 10px;
+  margin: auto;
+  width: fit-content;
+  background-color: white;
+  top: -16px;
+  position: relative;
+  color: rgb(150, 153, 158);
+  font-size: 12px;
+}
+.cnabt {
+  height: 48px;
+  padding: 0px 16px;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: rgb(66, 183, 42);
+  border-style: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.cnabt:hover {
+  background-color: rgb(56, 158, 36);
+}
